@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- *free_stack - frees the stack
+ *free_stack - frees the space allocated for the stack
  *@stack: the head of the stack
  *
  *Return: void
