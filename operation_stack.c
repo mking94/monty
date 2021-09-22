@@ -1,7 +1,7 @@
 #include "monty.h"
 /**
- * pall - print all data in stack
- * @stack: stack
+ * pall - Prints all the values on the stack
+ * @stack: pointer on the stack
  * @line_number: line number in monty .m file
  * Return: void
  */
@@ -36,7 +36,7 @@ void pint(stack_t **stack, unsigned int line_number)
 	printf("%d\n", (*stack)->n);
 }
 /**
- *nop - does nothing
+ *nop - Doesn’t do anything
  *@stack: pointer to the top of the stack
  *@line_number: the line number of the command interpted
  *
