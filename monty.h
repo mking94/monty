@@ -2,9 +2,15 @@
 #define MONTY_H
 
 extern int data;
-#include <stdlib.h>
 #include <stdio.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
+
 
 typedef struct stack_s
 {
