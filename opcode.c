@@ -1,6 +1,7 @@
 #include "monty.h"
+
 /**
- *get_opcode - get the opcode of a Monty file
+ *get_opcode - get the instructions from opcode
  *
  *Return: pointer to a string containing the opcode
  */
